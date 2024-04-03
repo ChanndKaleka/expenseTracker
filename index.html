@@ -18,18 +18,18 @@
             </label>
         </div>
         <div class="expense-form-field">
-            <label for="name">Expense Category:
-                <input id="name" type="text">
+            <label for="category">Expense Category:
+                <input id="category" type="text">
             </label>
         </div>
         <div class="expense-form-field">
-            <label for="name">Expense Price:
-                <input id="name" type="text">
+            <label for="price">Expense Price:
+                <input id="price" type="text">
             </label>
         </div>
         <div class="expense-form-field">
-            <label for="name">Expense Date:
-                <input id="name" type="date">
+            <label for="date">Expense Date:
+                <input id="date" type="date">
             </label>
         </div>
         <input id="create-expense" class="create-expense-button" type="button" value="Create Expense" onclick="create_expense()">
@@ -37,30 +37,12 @@
     <div class="expense-showcase-container">
         <h1 class="header">All Expenses</h1>
 
-        <table border="1" class="expense-showcase-table">
+        <table border="1" class="expense-showcase-table" id="expense-table">
             <tr>
                 <th>Name</th>
                 <th>Category</th>
                 <th>Price</th>
                 <th>Date</th>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
         </table>
     </div>
